@@ -1,3 +1,5 @@
+// Count Even/Odd
+
 public class CountEvenAndOdd {
     public static void main(String args[]) {
         int nums[] = { 1, 2, 3, 4, 5 };
@@ -22,3 +24,8 @@ public class CountEvenAndOdd {
     }
 
 }
+/*
+ total even numders in array: 2
+ total odd numders in array: 3
+ total zero numders in array: 0
+ */
