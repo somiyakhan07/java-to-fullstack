@@ -7,3 +7,9 @@ public class PrintElements {
         }
     }
 }
+
+/*10
+20
+30
+40
+*/
