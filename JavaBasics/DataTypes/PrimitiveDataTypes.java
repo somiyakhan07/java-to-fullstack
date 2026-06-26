@@ -1,4 +1,6 @@
-public class PrimitiveDataTypes {
+// Demonstrates all 8 primitive data types in Java.public 
+
+class PrimitiveDataTypes {
     public static void main(String arg[]) {
         byte b = 10;
         short s = 100;
