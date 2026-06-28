@@ -13,3 +13,12 @@ class ArithmeticOperators {
 
     }
 }
+
+/*
+Output:
+Addition: 6
+Subtraction: 2
+Multiplication: 8
+Division: 2
+Modulus: 0
+*/
