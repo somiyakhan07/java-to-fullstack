@@ -1,6 +1,6 @@
 // Demonstrate Increment and Decrement Operators
 
-public class IncrementDecrementOperator {
+public class IncrementDecrementOperators {
     public static void main(String args[]) {
         int num1 = 4;
         num1++; // post-increment ++
