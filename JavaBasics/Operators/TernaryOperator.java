@@ -6,7 +6,7 @@ public class TernaryOperator {
     public static void main(String args[]) {
         int n = 4;
         int result = 0;
-        result = n % 2 == 0 ? 1 : 0; // Ternary Operator
+        result = n % 2 == 0 ? 1 : 0; // Ternary Operator 
         System.out.println("n % 2 == 0 ? 1 : 0 = " + result);
     }
 
