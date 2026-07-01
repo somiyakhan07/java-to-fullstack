@@ -8,3 +8,8 @@ public class ShiftOperators {
     }
     
 }
+/* O/P: 
+num << 1 = 16
+num >> 1 = 4
+num >>> 1 = 4
+ */
