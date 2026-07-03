@@ -7,4 +7,4 @@ public class CheckDivisibleBy5 {
         }
     }
 }
-// 
+//  50 is divisible by 5
