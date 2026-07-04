@@ -22,6 +22,9 @@ public class StringBufferExample {
         sb.reverse();
         System.out.println("Reverse: " + sb);
 
+        // length() returns the current length of the StringBuilder.
+        System.out.println("Length: " + sb.length());
+
         // capacity() Returns the current capacity of the StringBuffer.
         System.out.println("Capacity: "+ sb.capacity());
 
