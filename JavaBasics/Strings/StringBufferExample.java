@@ -2,28 +2,27 @@ public class StringBufferExample {
     public static void main(String[] args){
         StringBuffer sb = new StringBuffer("Java ");
 
-        // append()
+        // append() text at the end.
         sb.append(" Programming ");
         System.out.println("Append: " + sb); 
 
-        // insert()
+        // insert() text at the specified index
         sb.insert(5, "Core");
         System.out.println("Insert: " + sb);
 
-        // replace()
+        // replace() Replaces characters between the given indexes
         sb.replace(5,9, "Advanced");
         System.out.println("Replace: " + sb);
 
-        // delete()
+        // delete() characters between the given indexes
         sb.delete(5,14);
         System.out.println("Delete: " + sb);
 
-        // reverse()
+        // reverse() Reverses the string
         sb.reverse();
         System.out.println("Reverse: " + sb);
 
-        // capacity()
-        sb.capacity();
+        // capacity() Returns the current capacity of the StringBuffer.
         System.out.println("Capacity: "+ sb.capacity());
 
         // Now it shows the last modified String Value here
