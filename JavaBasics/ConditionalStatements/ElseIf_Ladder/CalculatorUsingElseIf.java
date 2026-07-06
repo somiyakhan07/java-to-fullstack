@@ -13,9 +13,20 @@ public class CalculatorUsingElseIf {
         } else if (operator == '*') {
             System.out.println(num1 * num2);
         } else if (operator == '%') {
-            System.out.println(num1 % num2);
+            // Prevent modulus by zero
+            if (num2 == 0) {
+                System.out.println("Cannot perform modulus by zero");
+            } else {
+                System.out.println(num1 % num2);
+            }
         } else if (operator == '/') {
-            System.out.println(num1 / num2);
+            // Prevent division by zero
+            if (num2 == 0) {
+                System.out.println("Cannot divide by zero.");
+            } else {
+                System.out.println(num1 / num2);
+            }
+
         } else {
             System.out.println("Invalid Input");
         }
