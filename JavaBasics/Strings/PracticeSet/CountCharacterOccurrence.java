@@ -1,3 +1,4 @@
+// Check character occurrence in string
 public class CountCharacterOccurrence {
     public static void main(String[] args) {
 
@@ -33,3 +34,27 @@ public class CountCharacterOccurrence {
 
     }
 }
+
+/*
+O/P:
+i occurs 5 times
+  occurs 9 times
+p occurs 2 times
+r occurs 4 times
+a occurs 5 times
+c occurs 3 times
+t occurs 2 times
+e occurs 4 times
+j occurs 1 times
+v occurs 2 times
+o occurs 3 times
+g occurs 3 times
+m occurs 1 times
+y occurs 2 times
+s occurs 1 times
+n occurs 1 times
+l occurs 3 times
+d occurs 2 times
+b occurs 1 times
+u occurs 1 times
+ */
