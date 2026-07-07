@@ -2,14 +2,14 @@
 public class CountCharacterOccurrence {
     public static void main(String[] args) {
 
-        String name = "i practice java program every single day to build logic";
+        String prog = "i practice java program every single day to build logic";
 
-        for (int i = 0; i < name.length(); i++) {
-            char ch = name.charAt(i);
+        for (int i = 0; i < prog.length(); i++) {
+            char ch = prog.charAt(i);
             boolean alreadyCounted = false;
 
             for (int k = 0; k < i; k++) {
-                if (ch == name.charAt(k)) {
+                if (ch == prog.charAt(k)) {
                     alreadyCounted = true;
                     break;
                 }
@@ -21,8 +21,8 @@ public class CountCharacterOccurrence {
             }
 
             int count = 0;
-            for (int j = 0; j < name.length(); j++) {
-                if (ch == name.charAt(j)) {
+            for (int j = 0; j < prog.length(); j++) {
+                if (ch == prog.charAt(j)) {
                     count++;
                 }
 
