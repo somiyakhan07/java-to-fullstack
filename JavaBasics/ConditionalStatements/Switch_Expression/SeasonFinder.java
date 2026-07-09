@@ -1,4 +1,4 @@
-// Print Month Season using switch statement
+// Print Month Season using switch expression
 
 public class SeasonFinder {
     public static void main(String[] args){
