@@ -4,7 +4,7 @@ public class MonthDays {
     public static void main(String[] args){
         int year = 2026;
         int month = 2;
-        boolean isLeapYear = (year%4 ==0);
+        boolean isLeapYear = ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0));
 
 
     if(isLeapYear){
