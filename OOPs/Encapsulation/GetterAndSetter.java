@@ -24,5 +24,6 @@ public class GetterAndSetter {
         obj.setName(inputName);
 
         System.out.println("name: " + obj.getName());
+        sc.close();
     }
 }
