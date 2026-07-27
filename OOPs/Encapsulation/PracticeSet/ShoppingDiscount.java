@@ -43,8 +43,8 @@ class Customer { // create class
         this.purchase = purchase;
     }
 
-    public void discount(double percentage) { // calcuate discount price and update in purchase with percentage validation
-        if (percentage >= 0 && percentage <= 25) { 
+    public void applyDiscount(double percentage) { // calcuate discount price and update in purchase with percentage validation
+        if (percentage >= 0 && percentage <= 25) { // Discount allowed between 0% and 25%
             percentage = percentage / 100;
             double discountPrice = purchase * percentage;
             purchase = purchase - discountPrice;
@@ -60,7 +60,7 @@ public class ShoppingDiscount { // main class
         System.out.println("Name: " + c1.getName()); // display customer name
         System.out.println("Item: " + c1.getItem()); // display item name
         System.out.println("Purchase price: " + c1.getPurchase()); // display actual price
-        c1.discount(10); // update discount percentage
+        c1.applyDiscount(10); // update discount percentage
         System.out.println("Discount price: " + c1.getPurchase()); // display discount price
 
     }
