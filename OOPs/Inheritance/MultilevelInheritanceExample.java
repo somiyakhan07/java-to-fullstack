@@ -27,7 +27,7 @@ class VeryAdvCalc extends AdvCalc { // child of child class and multilevel inher
 
 }
 
-public class MultilevelInheritance { // main class
+public class MultilevelInheritanceExample { // main class
     public static void main(String[] args) { // main method
         VeryAdvCalc obj = new VeryAdvCalc(); // create class obj
         int r1 = obj.add(2, 2); // call add method
