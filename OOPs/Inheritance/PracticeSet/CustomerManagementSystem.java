@@ -150,3 +150,19 @@ public class CustomerManagementSystem {
         sc.close();
     }
 }
+
+/*output:
+Enter Your Name: Aliya
+Enter Your Age: 20
+Enter Product Name: Mobile
+Enter Product Price: 20000
+
+--- Customer Details ---
+Name: Aliya
+Age: 20
+Product Name: Mobile
+Product Price: 20000.0
+
+Apply Discount Percentage: 10
+Discount applied successfully!
+Final Price After Discount: 18000.0 */
