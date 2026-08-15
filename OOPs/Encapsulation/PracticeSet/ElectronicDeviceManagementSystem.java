@@ -55,7 +55,7 @@ class Android extends Mobile { // Android inherits Mobile
 
 }
 
-public class ElectronicsDeviceManagementSystem { // Main class
+public class ElectronicDeviceManagementSystem { // Main class
 
     public static void main(String[] args) { // Main method
 
