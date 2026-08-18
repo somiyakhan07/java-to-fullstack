@@ -1,3 +1,7 @@
+// Write a Java program to demonstrate the use of a built-in package. 
+// Import the java.util.Scanner class and use it to take two numbers as input from the user. 
+// Create a calculator method to add the two numbers and display the result.
+
 import java.util.Scanner; // Built in java packages
 
 class Calc { // class created
