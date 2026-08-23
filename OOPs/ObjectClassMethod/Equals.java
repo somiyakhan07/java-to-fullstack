@@ -20,6 +20,8 @@ public class Equals {
         s2.age = 22;
 
         System.out.println(s1.equals(s2));
+
+
     }
 }
 
