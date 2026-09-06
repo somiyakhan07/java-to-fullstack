@@ -31,3 +31,6 @@ public class AnimalAnonymousInnerClass {
 
 }
 // Dog Barks
+
+// Anonymous Inner Class creates an Animal object with a new version of sound().
+// So, when a.sound() is called, the overridden method runs.
