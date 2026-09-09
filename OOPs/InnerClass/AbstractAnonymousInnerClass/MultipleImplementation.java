@@ -1,52 +1,78 @@
-// Q3 — Shape
+// Q4 — Multiple Implementations
 //
-// Create an abstract class Shape.
-// - Add an abstract draw() method.
+// Create an abstract class Payment.
+// - Add an abstract pay() method.
 //
-// Use an Anonymous Inner Class to implement draw().
-// - Print "Drawing Circle".
+// Create 2 different Anonymous Inner Class objects.
 //
-// Condition:
-// Do not create a separate Circle class.
+// First object:
+// - Implement pay().
+// - Print "Payment successful using UPI".
+//
+// Second object:
+// - Implement pay().
+// - Print "Payment successful using Card".
+//
+// Goal:
+// Understand how multiple Anonymous Inner Class objects
+// can provide different implementations of the same
+// abstract method.
 
-abstract class Shape {
+abstract class Payment {
 
-    // Abstract method
-    // It must be implemented by the child class
-    abstract void draw();
+    // Abstract method, It must be implemented by the child class
+    abstract void pay();
 }
 
 public class MultipleImplementation {
 
     public static void main(String[] args) {
 
-        // Create an Anonymous Inner Class object
-        // that extends the abstract Shape class
-        Shape s1 = new Shape() {
+        // Create first Anonymous Inner Class object
+        Payment p1 = new Payment() {
 
-            // Implement the abstract draw() method
             @Override
-            void draw() {
-                System.out.println("Drawing Circle");
+            void pay() {
+
+                // Implement the abstract method with UPI payment behavior
+                System.out.println("Payment successful using UPI");
             }
         };
 
-        // Call the implemented draw() method
-        s1.draw();
+        // Create second Anonymous Inner Class object
+        Payment p2 = new Payment() {
+
+            @Override
+            void pay() {
+
+                // Implement the abstract method with Card payment behavior
+                System.out.println("Payment successful using Card");
+            }
+        };
+
+        // Call pay() of first Anonymous object
+        p1.pay();
+
+        // Call pay() of second Anonymous object
+        p2.pay();
     }
 }
 
 // Output:
-// Drawing Circle
+// Payment successful using UPI
+// Payment successful using Card
 
 // Explanation:
-// Shape is an abstract class, so we cannot create its direct object.
-// The Anonymous Inner Class extends Shape and provides the implementation of the abstract draw() method.
+// Payment is an abstract class, so we cannot create its direct object.
+// We created two different Anonymous Inner Class objects from the same abstract Payment class.
 
-// Shape s1 -> Shape reference
-// new Shape() { ... } -> Anonymous Inner Class object
+// p1 -> UPI payment implementation
+// p2 -> Card payment implementation
+
+// Both objects have the same reference type: Payment,
+// but both provide different implementations of pay().
 
 // Important:
-// new Shape() does NOT create a direct object of the abstract Shape class.
-// It creates an object of the Anonymous Inner Class that extends Shape.
-// No separate Circle class is created.
+// new Payment() { ... } does NOT create a direct object of the abstract Payment class.
+// It creates an object of the Anonymous Inner Class that extends Payment.
+// Anonymous Inner Class is useful when we need a one-time implementation without creating a separate class.
