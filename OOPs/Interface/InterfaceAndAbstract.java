@@ -71,8 +71,8 @@ public class InterfaceAndAbstract {
  * Explanation:
  * UPI is doing two things:
  *
- * extends Transaction → gets showTransaction()
- * implements Payment → must implement pay()
+ * extends Transaction -> gets showTransaction()
+ * implements Payment -> must implement pay()
  *
  * A class can extend one class and implement
  * multiple interfaces at the same time.
