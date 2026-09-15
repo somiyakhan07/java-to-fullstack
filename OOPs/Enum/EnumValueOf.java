@@ -38,7 +38,8 @@ public class EnumValueOf {
  * Explanation:
  * valueOf() converts a String into its matching enum constant.
  *
- * "SUCCESS" → Status.SUCCESS
+ * "SUCCESS" -> Status.SUCCESS
+ * "SUCCESS" -> Status.SUCCESS
  *
  * The String must exactly match the enum constant name.
  */
