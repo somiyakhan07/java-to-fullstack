@@ -58,15 +58,15 @@ public class EnumFields {
  * LOW, MEDIUM and HIGH are enum constants.
  *
  * Each constant has its own value:
- * LOW → 1
- * MEDIUM → 2
- * HIGH → 3
+ * LOW -> 1
+ * MEDIUM -> 2
+ * HIGH -> 3
  *
  * The constructor stores the value in the field.
  *
  * getValue() is used to access the private field.
  *
  * Important:
- * values() → returns all enum constants.
- * getValue() → returns the value stored in one constant.
+ * values() -> returns all enum constants.
+ * getValue() -> returns the value stored in one constant.
  */
