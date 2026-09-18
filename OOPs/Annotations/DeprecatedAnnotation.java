@@ -19,7 +19,6 @@ class Demo {
 }
 
 public class DeprecatedAnnotation {
-
     public static void main(String[] args) {
 
         // Demo reference pointing to a Demo object
