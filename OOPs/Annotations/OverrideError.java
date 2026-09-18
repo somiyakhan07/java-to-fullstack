@@ -3,7 +3,6 @@
 //
 // Create a parent class Vehicle and a child class Car.
 // Use @Override incorrectly and observe the compiler error.
-// Fix the error.
 //
 // Goal:
 // Understand how @Override detects mistakes.
