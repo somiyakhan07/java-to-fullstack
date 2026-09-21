@@ -19,12 +19,11 @@ interface Greeting {
     void greet();
 
     // void hello();
-    // If we add another abstract method,
-    // Greeting will no longer be a functional interface.
+    // If we add another abstract method, Greeting will no longer be a functional interface.
     // @FunctionalInterface will show a compiler error.
 }
 
-public class FunctionalInterfaceExample {
+public class FunctionalInterfaceVoidMethod {
 
     public static void main(String[] args) {
 
