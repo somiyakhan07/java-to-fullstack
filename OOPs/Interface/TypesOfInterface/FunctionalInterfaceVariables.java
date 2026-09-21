@@ -18,7 +18,7 @@ interface Calculator {
     int calculate(int a, int b);
 }
 
-public class FunctionalInterfaceExample {
+public class FunctionalInterfaceVariables {
 
     public static void main(String[] args) {
 
